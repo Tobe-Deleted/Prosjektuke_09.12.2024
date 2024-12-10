@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Olive\\.nuget\\packages\\": {}
+    "C:\\Users\\ianro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olive\\Documents\\kodehode\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
+      "projectUniqueName": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
       "projectName": "Prosjektuke_09.12.2024",
-      "projectPath": "C:\\Users\\Olive\\Documents\\kodehode\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
-      "packagesPath": "C:\\Users\\Olive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Olive\\Documents\\kodehode\\Prosjektuke_09.12.2024\\obj\\",
+      "projectPath": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
+      "packagesPath": "C:\\Users\\ianro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ianro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
