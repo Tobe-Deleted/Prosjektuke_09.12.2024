@@ -58,4 +58,63 @@ public class Dictionaries()
         };
         return dict;
     }
+    public Dictionary<string, int> Music()
+    {
+        Dictionary<string, int> dict = new Dictionary<string, int>()
+        {
+            {"Pop", 1},
+            {"Rock", 1},
+            {"Hip Hop", -10},
+            {"Jazz", 1},
+            {"Classical", 5},
+            {"Electronic", 1},
+            {"Country", 1},
+            {"R&B", -5},
+            {"Reggae", -2},
+            {"Blues", 1},
+            {"Metal", 1},
+            {"Soul", 1},
+            {"Funk", 1},
+            {"Disco", 1},
+            {"Punk", 1},
+            {"Folk", 1},
+            //Jesus takes the wheel!
+            {"Gospel", 25},
+            {"Latin", 1},
+            {"Ska", 1},
+            {"House", 1},
+            {"Techno", 1},
+            {"Trance", 1},
+            {"Dubstep", 1},
+            {"Ambient", 1},
+            {"Indie", 1},
+            {"Grunge", 1},
+            {"K-Pop", -1},
+            {"J-Pop", -1},
+            {"Opera", 1},
+            {"Swing", 1},
+            {"Bluegrass", 1},
+            {"Afrobeat", 1},
+            {"Salsa", 1},
+            {"Merengue", 1},
+            {"Bossa Nova", 1},
+            {"Flamenco", 1},
+            {"Reggaeton", 1},
+            {"Zouk", 1},
+            {"Calypso", 1},
+            {"Dancehall", 1},
+            {"Electro", 1},
+            {"Synthpop", 1},
+            {"New Wave", 1},
+            {"Post-Punk", 1},
+            {"Shoegaze", 1},
+            {"Emo", -1},
+            {"Hardcore", 1},
+            {"Industrial", 1},
+            {"Trip-Hop", 1},
+            {"World Music", 1}
+
+        };
+        return dict;
+    }
 }
