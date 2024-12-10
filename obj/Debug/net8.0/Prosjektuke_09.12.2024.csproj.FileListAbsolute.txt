@@ -1,0 +1,15 @@
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.exe
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.deps.json
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.runtimeconfig.json
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.dll
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.pdb
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.AssemblyInfoInputs.cache
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.AssemblyInfo.cs
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.csproj.CoreCompileInputs.cache
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.sourcelink.json
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.dll
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\refint\Prosjektuke_09.12.2024.dll
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.pdb
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.genruntimeconfig.cache
+C:\Users\joblo\OneDrive\Skrivebord\prosjektdes24\Prosjektuke_09.12.2024\obj\Debug\net8.0\ref\Prosjektuke_09.12.2024.dll
