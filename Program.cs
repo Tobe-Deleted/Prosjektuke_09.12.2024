@@ -15,7 +15,10 @@ class Program
     {
         Console.WriteLine(human.name);
     }
-
+    
+    {
+        
+    }
     }
 
 }
