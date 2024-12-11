@@ -3,3 +3,13 @@ C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\n
 C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.AssemblyInfo.cs
 C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.csproj.CoreCompileInputs.cache
 C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.sourcelink.json
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.exe
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.deps.json
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.runtimeconfig.json
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.dll
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\bin\Debug\net8.0\Prosjektuke_09.12.2024.pdb
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.dll
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\refint\Prosjektuke_09.12.2024.dll
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.pdb
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\Prosjektuke_09.12.2024.genruntimeconfig.cache
+C:\Users\virte\Desktop\Prosjektuke_09.12.2024\Prosjektuke_09.12.2024\obj\Debug\net8.0\ref\Prosjektuke_09.12.2024.dll
