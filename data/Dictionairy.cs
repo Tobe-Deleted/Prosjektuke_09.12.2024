@@ -117,4 +117,73 @@ public class Dictionaries()
         };
         return dict;
     }
+
+    public Dictionary<string, int> Streetnames()
+    {
+
+
+       Dictionary<string, int> dict = new Dictionary<string, int>()
+        {
+            {"Agnes Mowinckels gate", 1};
+            {"Allégaten", 1};
+            {"Allehelgens gate", 1};
+            {"Amalie Skrams vei", 1};
+            {"Arbeidergaten", 1};
+            {"Armauer Hansens vei", 1};
+            {"Aad Gjelles gate", 1};
+            {"Abels gate", 1};
+            {"Absalon Beyers gate", 1};
+            {"Adolph Bergs vei", 1};
+            {"Agnes Mowinckels gate", 1};
+            {"Allégaten", 1};
+            {"Allehelgens gate", 1};
+            {"Amalie Skrams vei", 1};
+            {"Arbeidergaten", 1};
+            {"Armauer Hansens vei", 1};
+            {"Arne Garborgs gate", 1};
+            {"Arnoldus Reimers' gate", 1};
+            {"Asbjørnsens gate", 1};
+            {"Astrups vei", 1};
+            {"Asylplassen", 1};
+            {"Baglergaten", 1};
+            {"Baneveien", 1};
+            {"Bankgaten", 1};
+            {"Bispengsgaten", 1};
+            {"Bjerregårds gate", 1};
+            {"Bjørnsons gate", 1};
+            {"Blaauws vei", 1};
+            {"Bontelabo", 1};
+            {"Bradbenken", 1};
+            {"Bredalsmarken", 1};
+            {"Bredsgården", 1};
+            {"Breistølen", 1};
+            {"Breiviksveien", 1};
+            {"Bryggen", 1};
+            {"Bøhmergaten", 1};
+            {"C. Sundts gate", 1};
+            {"Christian Michelsens gate", 1};
+            {"Christies gate", 1};
+            {"Cort Piil-Smauet", 1};
+            {"Damsgårdsveien", 1};
+            {"Dreggsallmenningen", 1};
+            {"Engen", 1};
+            {"Fabrikkgaten", 1};
+            {"Finnegårdsgaten", 1};
+            {"Fjøsangerveien", 1};
+            {"Fortunen", 1};
+            {"Hans Hauges gate", 1};
+            {"Haugeveien", 1};
+            {"Hollendergaten", 1};
+            {"Jonas Lies vei", 1};
+            {"Kaigaten", 1};
+            {"Kalfarveien", 1};
+            {"Kirkegaten", 1};
+            {"Klosteret", 1};
+            {"Kong Oscars gate", 1} 
+            
+
+        };
+        return dict;
+
+    }
 }
