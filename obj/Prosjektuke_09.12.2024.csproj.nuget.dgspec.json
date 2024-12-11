@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj": {}
+    "C:\\Users\\virte\\Desktop\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj": {
+    "C:\\Users\\virte\\Desktop\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
+        "projectUniqueName": "C:\\Users\\virte\\Desktop\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
         "projectName": "Prosjektuke_09.12.2024",
-        "projectPath": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
-        "packagesPath": "C:\\Users\\ianro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianro\\Desktop\\prosjektuke\\Prosjektuke_09.12.2024\\obj\\",
+        "projectPath": "C:\\Users\\virte\\Desktop\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024.csproj",
+        "packagesPath": "C:\\Users\\virte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\virte\\Desktop\\Prosjektuke_09.12.2024\\Prosjektuke_09.12.2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ianro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\virte\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

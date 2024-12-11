@@ -5,5 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, Christian"); // du finner json filen her: /data/randomPeople.json
+        Functions functions = new Functions();
+        functions.NaughtyList();
     }
 }
