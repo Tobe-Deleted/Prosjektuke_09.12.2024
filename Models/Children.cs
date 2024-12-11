@@ -8,4 +8,8 @@
         public required string[] MusicGenres { get; set; }
         public required string HomeAdress { get; set; }
         public required string CarModel { get; set; }
+    
+        public Elves? Elf { get; set; }
+        public string? Gift { get; set; }
+    
     }

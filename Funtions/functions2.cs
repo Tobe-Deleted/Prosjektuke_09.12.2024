@@ -19,6 +19,13 @@ public class Functions2()
 
     public void Nicelist(List<UserInfo> niceList)
     {
-        
+        List<Elves> elves = CreateElves();
+        int elfChooser = 0;
+        foreach (UserInfo Kid in niceList)
+        {
+            if(elfChooser == 5) elfChooser = 0;
+            Kid.Elf = Elves[elfChooser];
+            elfChooser++;
+        } 
     }
 }
