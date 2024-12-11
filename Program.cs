@@ -39,7 +39,15 @@ class Program
             {
                 moralityScore += -1;
             }
-            
+            if(human.toiletPaperOutward)
+            {
+                moralityScore += 3;
+            }
+            else
+            {
+                moralityScore += -2;
+            }
+
 
             
 
