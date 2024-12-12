@@ -8,12 +8,15 @@ class Program
     
     {
         LoadUsers LS = new LoadUsers();
-        
+        Functions fnc = new Functions();
+
         Dictionaries dict = new Dictionaries();
         Dictionary<string, int> cars = dict.Cars();
         Dictionary<string, int> music = dict.Music();
         Dictionary<string, int> streetname = dict.Streetnames();
         List<UserInfo> humans = LS.LoadUserInfo();
+        List<UserInfo> naughtylist = new List<UserInfo>{};
+        List<UserInfo> nicelist = new List<UserInfo>{};
         foreach(UserInfo human in humans)
         {
             int moralityScore = 0;
@@ -48,11 +51,36 @@ class Program
                 moralityScore += -2;
             }
 
-
-            
+            if(moralityScore<1)
+            {
+                naughtylist.Add(human);
+            }
+            else
+            {
+                nicelist.Add(human);
+            }
 
 
         }
+
+    fnc.NaughtyList();
+    fnc.NiceList();
+
+    while (true)
+    {
+        Console.Clear();
+            Console.WriteLine("Velg hvilken liste du ønsker");
+            Console.WriteLine("1. Nicelist");
+            Console.WriteLine("2. Naughtylist");
+            Console.WriteLine("0. Avslutt");
+            ConsoleKey MainMenuChoice = Console.ReadKey().Key;
+            switch (MainMenuChoice)
+            {
+                case ConsoleKey.D1:
+                    Console.WriteLine("~~Nicelist~~");
+                    
+            }
+    }
    
     
     
