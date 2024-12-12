@@ -15,6 +15,7 @@ public class Functions2()
         elves.Add(new Elves {Name = "Glitterbeard the Beardless", Role = "Twerking around the christmas tree", Gift = gifts4});
         elves.Add(new Elves {Name = "Treehuggus Maximus", Role = "Touching expensive things", Gift = gifts5});
 
+        return elves;
     }
 
     public void Nicelist(List<UserInfo> niceList)
@@ -24,8 +25,16 @@ public class Functions2()
         foreach (UserInfo Kid in niceList)
         {
             if(elfChooser == 5) elfChooser = 0;
-            Kid.Elf = Elves[elfChooser];
+            Kid.Elf = elves[elfChooser];
+            Random rng = new Random();
+            int giftNumber = rng.Next(0, elves[elfChooser].Gift.Length);
+            Kid.Gift = elves[elfChooser].Gift[giftNumber];
             elfChooser++;
         } 
+        Console.WriteLine("~~Nice list~~");
+        foreach(UserInfo kid in niceList)
+        {
+            Console.WriteLine($"{kid.Name} receives {kid.Gift} from {kid.Elf}");
+        }
     }
 }
