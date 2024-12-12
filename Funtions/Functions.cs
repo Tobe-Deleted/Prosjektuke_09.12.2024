@@ -7,19 +7,39 @@ public class Functions()
 
         foreach (UserInfo userinfos in naughtyList)
         {
+            if(userinfos.Punishment != null) continue;
             int rng = randomIndex.Next(0, 10);
-            Console.WriteLine(rng);
+
             if (rng == 1)
             {
                 // Logic..
                 userinfos.Punishment = "Gryla!";
-                Console.WriteLine($"{userinfos.Name} is eaten by {userinfos.Punishment}");
             }
             else
             {
                 // Logic..
-                userinfos.Punishment = "Kull!";
-                Console.WriteLine($"{userinfos.Name} recieves {userinfos.Punishment}");
+                userinfos.Punishment = "coal";
+            }
+        }
+
+        foreach(UserInfo userinfos in naughtyList)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write($"{userinfos.Name}");
+            Console.ResetColor();
+            if(userinfos.Punishment == "Gryla!")
+            {
+                Console.Write(" will be eaten by ");
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine(userinfos.Punishment);
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.Write(" will receive ");
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.WriteLine(userinfos.Punishment);
+                Console.ResetColor();
             }
         }
     }
@@ -45,20 +65,33 @@ public class Functions()
     public void NiceList(List<UserInfo> niceList)
     {
         List<Elves> elves = CreateElves();
+        elves.Sort();
         int elfChooser = 0;
         foreach (UserInfo Kid in niceList)
         {
+            if(Kid.Elf != null && Kid.Gift != null) continue;
             if(elfChooser == 5) elfChooser = 0;
-            Kid.Elf = elves[elfChooser].Name;
+            Kid.Elf = elves?[elfChooser].Name;
             Random rng = new Random();
             int giftNumber = rng.Next(0, elves[elfChooser].Gift.Length);
-            Kid.Gift = elves[elfChooser].Gift[giftNumber];
+            Kid.Gift = elves?[elfChooser].Gift?[giftNumber];
             elfChooser++;
         } 
         Console.WriteLine("~~Nice list~~");
         foreach(UserInfo kid in niceList)
-        {
-            Console.WriteLine($"{kid.Name} receives {kid.Gift} from {kid.Elf}");
+        {  
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write($"{kid.Name}");
+            Console.ResetColor();
+            Console.Write($" will receive ");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.Write($"{kid.Gift}");
+            Console.ResetColor();
+            Console.Write(" from the elf called ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{kid.Elf}");
+            Console.ResetColor();
         }
     }
 }
+//receives {kid.Gift} from {kid.Elf}

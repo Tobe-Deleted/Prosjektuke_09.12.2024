@@ -6,9 +6,10 @@ public class LoadUsers()
     {
         if (File.Exists("data/randomPeople.json"))
         {
-            return JsonSerializer.Deserialize<List<UserInfo>>(File.ReadAllText("data/randomPeople.json"), new JsonSerializerOptions { WriteIndented=true}) ?? new List<UserInfo>();
+            return JsonSerializer.Deserialize<List<UserInfo>>(File.ReadAllText("data/randomPeople.json"), 
+                        new JsonSerializerOptions { WriteIndented=true, PropertyNameCaseInsensitive = true}) 
+                        ?? new List<UserInfo>();
         }
-            Console.WriteLine("outsideif");
         return new List<UserInfo>();
     }
 }
