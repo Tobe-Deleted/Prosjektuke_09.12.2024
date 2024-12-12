@@ -21,7 +21,7 @@ class Program
         {
             int moralityScore = 0;
             moralityScore += cars[human.carModel];
-            moralityScore += streetname[human.homeAdress];
+            moralityScore += streetname[human.homeAdress.TrimEnd(new char[]{'1','2','3','4','5','6','7','8','9','0',' '})];
             foreach(string genre in human.musicGenres) 
             {
                 moralityScore += music[genre];
@@ -63,10 +63,10 @@ class Program
 
         }
 
-    fnc.NaughtyList();
-    fnc.NiceList();
-
-    while (true)
+    //fnc.NaughtyList();
+    //fnc.NiceList();
+    bool exit = false;
+    while (!exit)
     {
         Console.Clear();
             Console.WriteLine("Velg hvilken liste du ønsker");
@@ -77,7 +77,22 @@ class Program
             switch (MainMenuChoice)
             {
                 case ConsoleKey.D1:
-                    Console.WriteLine("~~Nicelist~~");
+                    Console.Clear();
+                    Console.WriteLine("~~Nice list~~");
+                    Console.ReadKey();
+
+                break;
+                case ConsoleKey.D2:
+                    Console.Clear();
+                    Console.WriteLine("~~Naughty list~~");
+                    Console.ReadKey();
+                    break;
+
+                case ConsoleKey.D0:
+                    Console.Clear();
+                    exit = true;
+                    break;
+
                     
             }
     }

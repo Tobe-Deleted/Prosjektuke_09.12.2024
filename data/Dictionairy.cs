@@ -124,12 +124,7 @@ public class Dictionaries()
 
        Dictionary<string, int> dict = new Dictionary<string, int>()
         {
-            {"Agnes Mowinckels gate", 1},
-            {"Allégaten", 1},
-            {"Allehelgens gate", 1},
-            {"Amalie Skrams vei", 1},
-            {"Arbeidergaten", 1},
-            {"Armauer Hansens vei", 1},
+            
             {"Aad Gjelles gate", 1},
             {"Abels gate", 1},
             {"Absalon Beyers gate", 1},
