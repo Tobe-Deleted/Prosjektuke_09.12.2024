@@ -1,4 +1,4 @@
-public class Elves()
+public class Elf()
 {
     //Hei, Ian!
 

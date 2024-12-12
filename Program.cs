@@ -20,12 +20,15 @@ class Program
         foreach(UserInfo human in humans)
         {
             int moralityScore = 0;
-            moralityScore += cars[human.CarModel];
-            moralityScore += streetname[human.HomeAdress.TrimEnd(new char[]{'1','2','3','4','5','6','7','8','9','0',' '})];
-            foreach(string genre in human.MusicGenres) 
-            {
-                moralityScore += music[genre];
-            }
+            if(human.CarModel != null)
+                moralityScore += cars[human.CarModel];
+            if(human.HomeAdress != null)
+                moralityScore += streetname[human.HomeAdress.TrimEnd(new char[]{'1','2','3','4','5','6','7','8','9','0',' '})];
+            if(human.MusicGenres != null)
+                foreach(string genre in human.MusicGenres) 
+                {
+                    moralityScore += music[genre];
+                }
             if(human.WashesHands) 
             {
                 moralityScore += 3;
@@ -70,10 +73,10 @@ class Program
     while (!exit)
     {
         Console.Clear();
-            Console.WriteLine("Velg hvilken liste du ønsker");
-            Console.WriteLine("1. Nicelist");
-            Console.WriteLine("2. Naughtylist");
-            Console.WriteLine("0. Avslutt");
+            Console.WriteLine("Choose list to view");
+            Console.WriteLine("1. Nice List");
+            Console.WriteLine("2. Naughty List");
+            Console.WriteLine("0. Exit");
             ConsoleKey MainMenuChoice = Console.ReadKey().Key;
             switch (MainMenuChoice)
             {
