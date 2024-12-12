@@ -63,8 +63,9 @@ class Program
 
         }
 
-    //fnc.NaughtyList();
-    //fnc.NiceList();
+    
+    
+    
     bool exit = false;
     while (!exit)
     {
@@ -78,13 +79,13 @@ class Program
             {
                 case ConsoleKey.D1:
                     Console.Clear();
-                    Console.WriteLine("~~Nice list~~");
+                    fnc.NiceList();
                     Console.ReadKey();
 
                 break;
                 case ConsoleKey.D2:
                     Console.Clear();
-                    Console.WriteLine("~~Naughty list~~");
+                    fnc.NaughtyList();
                     Console.ReadKey();
                     break;
 
