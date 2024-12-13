@@ -1,0 +1,58 @@
+Prosjektuke 09.12.2024 - 15.12.2024
+Gruppe: Christian, Ian, Michael Oliver
+
+Dag 1
+Vi har gått over oppgaven sammen i et møte over discord.
+Oliver har laget et flowchart og har presentert idéen
+
+Vi har fordelt oppgavene i tre deler. Input, Naughty list og Nice list. Som gruppeleder, github ansvarlig og program designer, har Oliver satt opp et repo hvor alle har fått sin del å jobbe med.
+Her er det satt inn .json filen fra John sitt repo, og UserInfo modellen er kopiert og lagt inn i model mappen.
+
+Input delen er gitt til Christian. Han skal ta ut input fra .json filen og dele hver person inn i 2 lister, basert på hvilke egenskaper/preferanser de har. Det vil så bli gjort et metodekall fra denne delen hvor input vil være en av listene.
+
+Naughty list vil ta inn slemme listen og tildele en "punishment" til hver person på listen. Det vil være tildelt tilfeldig, med 10% for Gryla og 90% for kull.
+
+Nice list vil ta inn snille listen og tildele først en alv, og så en gave basert på alven de er tildelt. Alvene blir tildelt ca like mange barn hver, og alle har et sett med gaver basert på spesialiteten sin. Denne delen av oppgaven involverer også å lage alvene. De vil ha en egen modell med string for nav og spesialitet, og string array for mulige gaver. Alvene skal være statisk.
+
+Dag 2
+
+Oliver har laget repo, Michael har fått til å lage sin branch, Christian og Ian får hjelp av Oliver til å komme i gang. Christian får begynt på oppgaven med å hente inn listen fra .json filen med hjelp av Oliver. Michael eksperimenterer med Random.Next. Ian finner opp alvene.
+
+Dag 3
+
+Christian får tildelt moralityScore til alle menneskene. Ian får fullført modellen for alvene og tildeling av alv til hvert menneske. Michael får orden på Random.Next og fullfører sin del av oppgaven. Oliver følger opp hver enkelt og hjelper med å styre ting i riktig retning.
+
+Dag 4
+
+Christian fullfører moralityScore tildeling og lager en meny som kaller funksjonene som Ian og Michael har laget, Ian er i remote møte med Oliver og fullfører tildeling av gaver.
+Oliver merger de tre delene sammen, styler printout og fikser småting.
+
+Dag 5
+
+Ian er ikke på kontoret, men har vært i kontakt med resten av laget. Christian, Michael og Oliver har en siste sjekk over prosjektet, og blir enig om at det er slik vi vil ha det. Oliver merger til main og leverer inn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
