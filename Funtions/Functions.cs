@@ -44,6 +44,8 @@ public class Functions()
                 Console.ResetColor();
             }
         }
+                Console.WriteLine("Press any button to go back");
+
     }
 
     public List<Elf> CreateElves()
@@ -94,6 +96,6 @@ public class Functions()
             Console.WriteLine($"{kid.Elf}");
             Console.ResetColor();
         }
+        Console.WriteLine("Press any button to go back");
     }
 }
-//receives {kid.Gift} from {kid.Elf}
